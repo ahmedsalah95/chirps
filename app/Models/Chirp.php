@@ -13,7 +13,7 @@ class Chirp extends Model
     protected $fillable = [
         'message',
     ];
-
+//TODO to be removed to activate sending email event
 //    protected $dispatchesEvents = [
 //        'created' => ChirpCreated::class,
 //    ];
